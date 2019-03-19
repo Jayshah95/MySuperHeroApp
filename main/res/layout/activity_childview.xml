@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sh2"
+    tools:context=".childview"
+    >
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Enter name of your SuperHero!"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="26sp"
+
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:alpha=".80"
+        app:srcCompat="@drawable/qm1" />
+
+    <EditText
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/shname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/ButtonSpeak"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:alpha="0.80"
+        android:background="@android:color/black"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="Call SuperHero"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
